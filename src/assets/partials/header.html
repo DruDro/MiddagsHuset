@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<HTML>
+        
+        <HEAD>
+          <meta http-equiv="X-UA-Compatible" content="IE=9">
+          <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+          <Title>@@productTitle | @@title @@if(context.type == "api"){- @@subtitle}</Title><!---->
+          <link rel="stylesheet" href="../assets/style.css">
+          <script src="../assets/jquery-3.2.1.min.js" charset="UTF-8"></script>
+          <script src="../assets/jquery.fancybox.min.js" charset="UTF-8"></script>
+          @@if(context.type == "api"){
+            <script src="../assets/highlight.pack.js" charset="UTF-8"></script>
+            <script>hljs.initHighlightingOnLoad();</script>
+          }
+          <script src="../assets/script.js" defer></script>
+        </HEAD>
+        
+        <body>
+          <header class="header">
+            <h1>
+              <span class="product-logo">
+                <img src="../assets/images/logo.png" alt="" class="l">
+                <img src="../assets/images/logo.png" alt="" class="s">
+              </span>
+              <span class="article__title">
+                @@if(context.type == "api"){
+                    <span class="resource-title"><span class="product-title">@@productTitle</span>@@title</span>
+                    <br>@@subtitle</span>
+                }
+                @@if(context.type !== "api"){
+                  <span class="product-title">@@productTitle</span>@@title
+                }
+            </h1>
+          </header>
+        
+          <main class="article">
+<div class="article__wrapper">

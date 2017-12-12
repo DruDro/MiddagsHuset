@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Overview">
+		<param name="Local" value="articles\overview.htm">
+		</OBJECT>
+		<UL>		
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Screenshots">
+			<param name="Local" value="articles\screenshots.htm">
+			</OBJECT>
+		</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="User Flow">
+		<param name="Local" value="articles\flowchart.htm">
+		</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Log In">
+				<param name="Local" value="articles\login.htm">
+				</OBJECT>
+		</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Developer Reference">
+		</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Latest Improvements">
+				<param name="Local" value="articles\improvements.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="API">
+				<param name="Local" value="articles\api.htm">
+				</OBJECT>
+				<UL>				
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="AcceptInvite()">
+					<param name="Local" value="articles\AcceptInvite.htm">
+					</OBJECT>
+		</UL>
+</UL>
+</BODY></HTML>

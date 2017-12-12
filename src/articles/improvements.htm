@@ -1,0 +1,122 @@
+@@include('../assets/partials/header.html', { "productTitle":"MiddagsHuset", "title":"Latest Improvements" })
+
+
+
+<div class="article__content">
+    <h2>Inspo</h2>
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/tick.png">Added an information message on the "Inspo" page if the user has no fixlists with a category</h3>
+    <h4>Steps to reproduce:</h4>
+    <ul>
+        <li>
+            <p>Create a fixlist without categories</p>
+        </li>
+        <li>
+            <p>Tap the "Inspo" tab</p>
+        </li>
+    </ul>
+    <p>
+        <b>Expected result:</b> The user sees an informational message:
+        <i>"Please select a category to be able to see the information on this page"</i> or something like this.</p>
+    <p>
+        <b>Actual result:</b> The "Inspo" page is empty.</p>
+
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/tick.png">Expanding text under the photo</h3>
+
+    <p>
+        <b>Precondition:</b> User should have at least one inspo with a large number of characters (> 300 symbols) in the "Text"
+        field (backoffice) on the "Inspo" page.</p>
+    <h4>Steps to reproduce:</h4>
+    <ul>
+        <li>
+            <p>Log in to the account</p>
+        </li>
+        <li>
+            <p>Tap the "Inspo" tab</p>
+        </li>
+    </ul>
+    <p class="center">
+        <a href="http://jira.gentlecode.com.ua:8080/secure/attachment/17986/IMG_0697.PNG" data-fancybox>
+            <img src="http://jira.gentlecode.com.ua:8080/secure/attachment/17986/IMG_0697.PNG" alt="" class="screen inline">
+        </a>
+    </p>
+    <p>
+        <b>Expected result:</b> Some of the text is hidden if the "Text" field contains a large number of characters, but all
+        the text can be seen after clicking on it.</p>
+    <p>
+        <b>Actual result:</b> Possible to see all text.</p>
+    <p>
+        <b>Additional info:</b> Would be nice to hide some part of the name or text from the "Text" field in the backoffice
+        on the "Inspo" page. </p>
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/tick.png">Dynamic Ads</h3>
+    <p>Hardcoded Inspo became dynamic and manageable via admin panel.</p>
+    <ul>
+        <li>
+            <p>Added respective pages to the backend website for the admins to be able to manage the sources of the Inspo tab
+                content.
+            </p>
+        </li>
+        <li>
+            <p>API and Image storage implemented</p>
+        </li>
+        <li>
+            <p>Made the app using/displaying custom content loaded dynamically from different sources of the advertisement elements</p>
+        </li>
+    </ul>
+    <br>
+    <h2>Fixlist</h2>
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/tick.png">Implemented the Fixlist edit/update screen</h3>
+    <p>Created a separate Fixlist screen for editing updating the Fixlist only data.</p>
+    <p>The screen displays the number of photos and participants, allows renaming the fixlist, and contains 3 tabs: Participants,
+        Attachments, Categories</p>
+    <p class="center">
+        <a href="http://jira.gentlecode.com.ua:8080/secure/attachment/17750/Fixlist_edite.png" data-fancybox>
+            <img src="http://jira.gentlecode.com.ua:8080/secure/attachment/17750/Fixlist_edite.png" alt="" class="screen inline">
+        </a>
+        <a href="http://jira.gentlecode.com.ua:8080/secure/attachment/17751/Create_a_UI_of_the_Fixlist_obje.png" data-fancybox>
+            <img src="http://jira.gentlecode.com.ua:8080/secure/attachment/17751/Create_a_UI_of_the_Fixlist_obje.png" alt="" class="screen inline large">
+        </a>
+
+    </p>
+    <br>
+    <h2>Chats</h2>
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/tick.png">Removed chats for fixlists</h3>
+    <p>Chats are now available only for photos.</p>
+    <p>Removed the "Open Chat" button.</p>
+    <p>The chats tab leads to the active fixlist photo chat.</p>
+    <br>
+    <h2>Notifications</h2>
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/tick.png">Added support for push notifications</h3>
+    <p>3 types of notifications implemented:</p>
+    <ul>
+        <li>
+            <p>IF there is a person accepting your Participation request
+                <br>
+                <i>(name) has accepted your invitation</i>
+            </p>
+        </li>
+        <li>
+            <p>IF there is a new chat from a photo or a Fixlist
+                <br>
+                <i>(name) has sent you a message</i>
+            </p>
+        </li>
+        <li>
+            <p>IF there is a new photo added to one of the Fixlists you are a participant of
+                <br>
+                <i>(name) has added a photo</i>
+            </p>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+@@include('../assets/partials/footer.html')

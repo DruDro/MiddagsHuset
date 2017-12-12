@@ -1,0 +1,31 @@
+{
+  "name": "middagshuset",
+  "version": "1.0.0",
+  "description": "Middags Huset",
+  "main": "index.js",
+  "scripts": {
+    "test": "MiddagsHuset.hhp",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DruDro/MiddagsHuset.git"
+  },
+  "author": "DruDro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DruDro/MiddagsHuset/issues"
+  },
+  "homepage": "https://github.com/DruDro/MiddagsHuset#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "cheerio": "^1.0.0-rc.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-file-include": "^1.2.0",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
