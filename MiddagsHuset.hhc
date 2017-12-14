@@ -24,8 +24,46 @@
 		</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Log In">
+				<param name="Name" value="Log In / Sign Up">
 				<param name="Local" value="articles\login.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Ordering">
+				<param name="Local" value="articles\ordering.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Payment">
+				<param name="Local" value="articles\payment.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Settings">
+				<param name="Local" value="articles\settings.htm">
+				</OBJECT>
+		</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Administration Panel">
+		<param name="Local" value="articles\admin.htm">
+		</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dashboard">
+				<param name="Local" value="articles\admin-dashboard.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Dishes">
+				<param name="Local" value="articles\admin-dishes.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Promotions">
+				<param name="Local" value="articles\admin-promo.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pick-up Spots">
+				<param name="Local" value="articles\admin-spots.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Push Notifications">
+				<param name="Local" value="articles\admin-notifications.htm">
 				</OBJECT>
 		</UL>
 	<LI> <OBJECT type="text/sitemap">
