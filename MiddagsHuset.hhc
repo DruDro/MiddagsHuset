@@ -35,10 +35,10 @@
 				<param name="Name" value="Payment">
 				<param name="Local" value="articles\payment.htm">
 				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
+			<!-- <LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Settings">
 				<param name="Local" value="articles\settings.htm">
-				</OBJECT>
+				</OBJECT> -->
 		</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Administration Panel">
