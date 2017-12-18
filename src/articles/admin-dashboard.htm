@@ -4,48 +4,105 @@
 
 <div class="article__header">
     <h2>Table of contents</h2>
+
     <ul>
         <li>
             <p>
-                <a href="screenshots.htm">Screenshots</a>
+                <a href="#gathering">Gathering</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                <a href="#orders-by-day">Orders By Day</a>
+            </p>
+        </li>
+        <li>
+            <p>
+                <a href="#matrix">Daily Dishes Matrix</a>
             </p>
         </li>
     </ul>
 </div>
 <div class="article__content">
-    <div class="abstract">
-        <h2>HEALTHY, LOCAL AND EASY!</h2>
-        <p>Middags Huset makes real Norwegian healthy dinners that you order weekly on our app, select daytime when you want
-            to pick up your dinner - and the best part is that you can pick it up in your neighbourhood! This saves you time.
-            And your family gets healthy and good dinners - every day!</p>
-    </div>
-    <h2>General info</h2>
-    <p><b>Middags Huset</b> provides ability to order meals in Norway for every afternoon of the next week until 17:00 Friday this
-        week.</p>
-    <p>The schedule for 4 days (Monday - Thirsday) is displayed on the Home screen and shows the order-per-day information.
-        Tap on a day leads to the corresponding Menu screen.</p>
-    <p>The menu contains 2 dishes - first and second courses. Tap on a dish box leads to the Order screen.</p>
-    <p>On the Order screen, the user can select the number of portions (from 1 to 9.5), specify convenient pick-up daytime,
-        edit the order, confirm the order.</p>
-<br>
-    <h2>Features</h2>
-    <h3>Login with Facebook</h3>
-    <h3>50% discount for all orders made within 24 hours since the first login</h3>
-    <h3>Ordering dinners for every day of the following week until 17:00 Friday current week</h3>
-    <h3>Payment with a credit card directly from the app</h3>
-    <h3>Notifications</h3>
-    <h3>Enhanced admin panel</h3>
+    <a name="gathering"></a>
+    <h2>Gathering</h2>
+    <p>The
+        <b>Gathering</b> page displays orders for today. </p>
+        <p class="center">
+            
+                <a href="../assets/images/screenshots/dashboard-gathering.png" data-fancybox="screenshots" data-caption="Dashboard - Gathering"><img src="../assets/images/screenshots/dashboard-gathering.png" alt="" class="screen large inline"></a>
+        </p>
+    <p>Each row of the table contains the following information:</p>
+    <ul>
+        <li>
+            <p>
+                <b>Order Id</b> - the auto-generated ID of the order
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>Customer Name</b> - customer's firstname, lastname and e-mail
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>Amount of Food dishes</b> - the number of portions of a dish, which the customer has selected on the Ordering
+                page in the app
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>Pickup date and time</b> - data and time of the pickup, which the customer has selected on the Ordering page
+                in the app
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>Store</b> - the pickup address, which the customer has selected on the Ordering page in the app
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>Deliver</b>- status of the order. Click the link
+                <b>Issued / Utlevert</b> to change status of the order
+            </p>
+        </li>
+    </ul>
+    
+    <a name="orders-by-day"></a>
+    <h2>Orders By Day</h2>
+    <p>The <b>Orders By Day</b> page displays the following information for the selected day:</p>
+    <p class="center">
+        
+            <a href="../assets/images/screenshots/dashboard-orders.png" data-fancybox="screenshots" data-caption="Dashboard - Orders By Day"><img src="../assets/images/screenshots/dashboard-orders.png" alt="" class="screen large inline"></a>
+    </p>
+    <ul>
+        <li><p><b>Name of dish</b>. The table is sorted by this field by default. </p></li>
+        <li><p><b>Amount</b> - the number of portions, which the customer has selected on the Ordering
+            page in the app</p></li>
+        <li><p><b>Pickup place</b >- the pickup address, which the customer has selected on the Ordering page in the app</p></li>
+        <li><p><b>User data</b> - customer's e-mail</p></li>
+    </ul>
+    <a name="matrix"></a>
+    <h2>Daily Dishes Matrix</h2>
+    <p>The <b>Daily Dishes Matrix</b> displays the matrix of orders for the selected store and week by portions. </p>
+    <p class="center">
+        
+            <a href="../assets/images/screenshots/dashboard-matrix.png" data-fancybox="screenshots" data-caption="Dashboard - Daily Dishes Matrix"><img src="../assets/images/screenshots/dashboard-matrix.png" alt="" class="screen large inline"></a>
+    </p>
+    <p>The first column <b>Quantity</b> displays all the prtion types available to select in the app (1, 1.5, 2, etc.).</p>
+    <p>Each day is presented by 2 columns - for the two dishes presented in the menu this day (Mandag 1, Fiskeboller &amp; Mandag 2, Vegetarpølser med potetmos og stekte grønnsaker.)</p>
+    <p>The matrix displays the number of portions of each type for every dish ordered for particluar day.</p>
 </div>
 <br>
 
 <div class="article__footer">
     <h2>See also</h2>
     <ul>
-        <li>
-            <p>
-                <a href="screenshots.htm">Screenshots</a>
-            </p>
-        </li>
+            <li><p><a href="admin-dishes.htm">Dishes</a></p></li>
+            <li><p><a href="admin-spots.htm">Pick-up Spots</a></p></li>
+            <li><p><a href="admin-notifications.htm">Notifications</a></p></li>
+            <li><p><a href="admin-promo.htm">Promotions</a></p></li>
     </ul>
 </div>
 
