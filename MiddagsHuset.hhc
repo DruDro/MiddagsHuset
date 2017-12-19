@@ -58,7 +58,7 @@
 				<param name="Local" value="articles\admin-promo.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Pick-up Spots">
+				<param name="Name" value="Pick-up Locations">
 				<param name="Local" value="articles\admin-spots.htm">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
