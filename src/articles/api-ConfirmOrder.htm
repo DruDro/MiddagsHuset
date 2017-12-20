@@ -1,0 +1,37 @@
+@@include('../assets/partials/header.html', { "productTitle":"Middags Huset", "title": "API", "subtitle":"ConfirmOrder()",
+"type":"api" })
+
+
+
+
+<div class="article__content">
+    <p>confirmation for order, returns created order</p>
+
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/params.png">Params</h3>
+    <ul>
+        <li>
+            <p>
+                <b>customerId</b>
+                <i>int</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>shippingMethodId</b>
+                <i>int</i>
+            </p>
+        </li>
+    </ul>
+
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/curly.png">Signature (API Controller)
+
+    </h3>
+    <pre class="wrap"><code>ConfirmOrder(int customerId, int shippingMethodId) </code></pre>
+</div>
+
+
+
+
+@@include('../assets/partials/footer.html')

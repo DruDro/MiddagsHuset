@@ -80,8 +80,116 @@
 				</OBJECT>
 				<UL>				
 				<LI> <OBJECT type="text/sitemap">
-					<param name="Name" value="AcceptInvite()">
-					<param name="Local" value="articles\AcceptInvite.htm">
+					<param name="Name" value="AddProductToShoppingCart()">
+					<param name="Local" value="articles\api-AddProductToShoppingCart.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ClearAllShoppingCarts()">
+					<param name="Local" value="articles\api-ClearAllShoppingCarts.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ConfirmOrder()">
+					<param name="Local" value="articles\api-ConfirmOrder.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="DisableShowTutorial()">
+					<param name="Local" value="articles\api-DisableShowTutorial.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="getCategories()">
+					<param name="Local" value="articles\api-getCategories.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GetCountries()">
+					<param name="Local" value="articles\api-GetCountries.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GetCustomer()">
+					<param name="Local" value="articles\api-GetCustomer.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GetEmptyCustomer()">
+					<param name="Local" value="articles\api-GetEmptyCustomer.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GetOrders()">
+					<param name="Local" value="articles\api-GetOrders.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="getProductAttributes()">
+					<param name="Local" value="articles\api-getProductAttributes.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="getProducts()">
+					<param name="Local" value="articles\api-getProducts.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GetQuantity()">
+					<param name="Local" value="articles\api-GetQuantity.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GetSettings()">
+					<param name="Local" value="articles\api-GetSettings.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GetShippingMethods()">
+					<param name="Local" value="articles\api-GetShippingMethods.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="GetWeekPayments()">
+					<param name="Local" value="articles\api-GetWeekPayments.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="HasOrdersForCurrentWeek()">
+					<param name="Local" value="articles\api-HasOrdersForCurrentWeek.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Login()">
+					<param name="Local" value="articles\api-Login.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="LoginWithFacebook()">
+					<param name="Local" value="articles\api-LoginWithFacebook.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="RegisterDevice()">
+					<param name="Local" value="articles\api-RegisterDevice.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="ReplaceOrderItem()">
+					<param name="Local" value="articles\api-ReplaceOrderItem.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="SendInvoice()">
+					<param name="Local" value="articles\api-SendInvoice.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="SetPickupData()">
+					<param name="Local" value="articles\api-SetPickupData.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="setRegistrationDiscountAttribute()">
+					<param name="Local" value="articles\api-setRegistrationDiscountAttribute.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="UnregisterDevice()">
+					<param name="Local" value="articles\api-UnregisterDevice.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="UpdateAdminData()">
+					<param name="Local" value="articles\api-UpdateAdminData.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="UpdateOrderItem()">
+					<param name="Local" value="articles\api-UpdateOrderItem.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="UpdatePickupTime()">
+					<param name="Local" value="articles\api-UpdatePickupTime.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="UpdateProductsForNewWeek()">
+					<param name="Local" value="articles\api-UpdateProductsForNewWeek.htm">
 					</OBJECT>
 		</UL>
 </UL>

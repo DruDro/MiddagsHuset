@@ -1,0 +1,67 @@
+@@include('../assets/partials/header.html', { "productTitle":"Middags Huset", "title": "API", "subtitle":"GetEmptyCustomer()",
+"type":"api" })
+
+
+
+
+<div class="article__content">
+    <p>updates customer settings</p>
+
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/params.png">Params</h3>
+    <ul>
+        <li>
+            <p>
+                <b>customerId</b> -
+                <i>int</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>phone</b> -
+                <i>string</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>firstName</b> -
+                <i>string</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>lastName</b> -
+                <i>string</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>city</b> -
+                <i>string</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>shippingMethod</b> -
+                <i>string</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>enablePushNotifications</b> -
+                <i>string</i>
+            </p>
+        </li>
+    </ul>
+
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/curly.png">Signature (API Controller)
+
+    </h3>
+    <pre class="wrap"><code>UpdateAdminData(int customerId, string phone, string firstName, string lastName, string city, string shippingMethod, string enablePushNotifications) </code></pre>
+</div>
+
+
+
+
+@@include('../assets/partials/footer.html')

@@ -1,0 +1,49 @@
+@@include('../assets/partials/header.html', { "productTitle":"Middags Huset", "title": "API", "subtitle":"AddProductToShoppingCart()",
+"type":"api" })
+
+
+
+
+<div class="article__content">
+    <p>adds product to shopping cart, returns confirmation for order</p>
+
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/params.png">Params</h3>
+    <ul>
+        <li>
+            <p>
+                <b>customerId</b>
+                <i>int</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>productId</b>
+                <i>int</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>quantity</b>
+                <i>double</i>
+            </p>
+        </li>
+        <li>
+            <p>
+                <b>attrs</b>
+                <i>Dictionary&lt;string, int&gt;</i>
+            </p>
+        </li>
+    </ul>
+
+    <h3 class="ref-title">
+        <img class="icon ref" src="../assets/images/icons/curly.png">Signature (API Controller)
+
+    </h3>
+    <pre class="wrap"><code>AddProductToShoppingCart(int customerId, int productId, double quantity, Dictionary&lt;string, int&gt; attrs) </code></pre>
+</div>
+
+
+
+
+@@include('../assets/partials/footer.html')
