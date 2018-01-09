@@ -1,0 +1,46 @@
+@@include('../assets/partials/header.html', { "productTitle":"Middags Huset", "title":"Notifications" })
+
+
+
+<div class="article__content">
+    <p>Below is the list of notifications and cases when they are sent:</p>
+    <h2>Weekly notifications</h2>
+    <ul>
+        <li>
+            <p>
+                <b>You should order food before 22:00 tonight.</b><br>
+                <i>Du må bestille mat før klokken 22:00 i kveld.</i>
+            </p>
+            <p>The notification is sent <b>on Sundays at 20:00</b>. It is not sent to a user in the given time if the user has at least one order for the next week.</p>
+        </li>
+        <li>
+            <p>
+                <b>Remember to order food for next week!</b><br>
+                <i>Husk å bestille mat for neste uke!</i>
+            </p>
+            <p>The notification is sent <b>every Saturday at 14:00</b>. It is not sent to a user in the given time if the user has at least one order for the next week.</p>
+        </li>
+    </ul>
+    <h2>Daily notifications</h2>
+    <ul>
+        <li>
+            <p>
+                <b>Remember to pick up the food at Middagshuset</b><br>
+                <i>Husk å hente maten hos Middagshuset</i>
+            </p>
+            <p>The notification is sent <b>everyday at 11:00</b>.</p>
+        </li>
+        <li>
+            <p>
+                <b>Remember to pick up the food at Middagshuset in 15 minutes</b><br>
+                <i>Husk å hente maten på Middagshuset om 15 minutter!</i>
+            </p>
+            <p>The notification is sent <b>everyday 15 minutes before pick up time</b>.</p>
+        </li>
+    </ul>
+    <p class="note">In addition to predefined notifications, the administrator can notify users manually from the <a href="admin-notifications.htm">admin panel</a> with a random text and anytime.</p>
+</div>
+
+
+
+@@include('../assets/partials/footer.html')
