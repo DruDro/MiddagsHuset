@@ -74,10 +74,10 @@
 		<param name="Name" value="Developer Reference">
 		</OBJECT>
 		<UL>
-			<!--<LI> <OBJECT type="text/sitemap">
+			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="Latest Improvements">
 				<param name="Local" value="articles\improvements.htm">
-				</OBJECT>-->
+				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="API">
 				</OBJECT>
