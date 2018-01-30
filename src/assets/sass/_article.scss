@@ -13,6 +13,12 @@ a {
     &:visited {
         color: #ac4500;
     }
+    &:hover {
+        text-decoration:none;
+    }
+    &[data-fancybox]{
+        text-decoration:none;
+    }
 }
 
 span.link {
@@ -57,7 +63,7 @@ a[data-fancybox] {
     }
 }
 
-img, video {
+img {
     width: auto;
     max-width: 100%;
     height: auto;
@@ -77,6 +83,9 @@ img, video {
         }
         &.l {
             width: 48px;
+        }
+        &.xl {
+            width: 72px;
         }
         &.ref {
             width: 16px;
@@ -103,6 +112,9 @@ img, video {
             margin: 10px 3%;
             max-width: 94%;
         }
+        &.auto {
+            width:auto;
+        }
         &.large {
             width: 640px;
         }
@@ -113,8 +125,57 @@ img, video {
     margin: 0 -15px;
     text-align: center;
     background: #f9f9f9;
-    line-height: 0;
-    font-size: 0;
+    ul,ol {
+        list-style:none;
+        margin:0;
+        padding:0;
+        counter-reset:counter;
+        li {
+            padding:10px 0;
+            margin:0;
+            z-index:1;
+            position:relative;
+            &::marker{
+                font-size:2em
+            }
+            &:not(:first-child):before{
+                counter-increment:counter;
+                display:inline;
+                content:counter(counter)".\00a0";
+                font-size:2em;
+                font-weight:700;
+                color:#62638C;
+                position:relative;
+                z-index:2;
+            }
+            &:after{
+                content:"";
+                display:block;
+                margin:20px auto 0;
+                width:40px;
+                height:50px;
+                background-image: url(../assets/images/icons/arrow-down.png);
+                background-repeat: no-repeat;
+                background-position:center center;
+                background-size: contain;
+            }
+            &:last-child:after{
+                display:none;
+            }
+            h2 {
+                font-size: 1.4em;
+                display:inline;
+                margin: 0;
+                padding:0 0 10px;
+            }
+            p {
+                margin:0;
+            }
+            .screen.inline{
+                vertical-align:top;
+            }
+        }
+    }
 }
 
 pre {
@@ -221,4 +282,37 @@ table.calls {
 p i,
 li i {
     color: #799;
+}
+
+
+/*.screenshots {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: calc(100vw - 60px);
+    margin: 0 auto;
+    position: relative;
+}*/
+
+.video {
+    width: auto;
+    max-width:calc(100vw - 50px);
+    max-height:100vh;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    &-wrapper {
+        position: relative;
+        margin: 1em auto;
+        max-width:100%;
+    }
+    &-link {
+        display:none;
+    }
+}
+
+figure {
+    margin: 1em auto;
+    width: 820px;
+    max-width: 100%;
 }

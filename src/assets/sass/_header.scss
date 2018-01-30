@@ -18,7 +18,7 @@
         vertical-align: middle;
     }
     .product-logo {
-        width: 90px;
+        width: 150px !important;
         padding: 0 15px 0 0;
 
         img {
@@ -35,7 +35,7 @@
         display:block;
         font-size:.8rem;
         font-weight:700;
-        color:#C24729;
+        color:#07f;
     }
     .article__title {
         font-size: 28px;
@@ -48,7 +48,7 @@
             font-size: 24px;
         }
         .product-logo {
-            width: 50px;
+            width: 40px !important;
             padding: 0;
             img.l {
                 display: none;
